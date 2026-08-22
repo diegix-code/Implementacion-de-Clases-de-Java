@@ -17,29 +17,29 @@ public class Product {
     
     //Getters//
     
-    public String getid(){
+    public String getId(){
         return id;
     }
-    public String getname(){
+    public String getName(){
         return name;
     }
-    public double getprice(){
+    public double getPrice(){
         return price;
     }
-    public int getstock(){
+    public int getStock(){
         return stock;
     }
     //Setters//
-    public void setid(String id){
+    public void setId(String id){
         this.id = id;
     }
-    public void setname(String name){
+    public void setName(String name){
         this.name = name;
     }
-    public void setprice(double price){
+    public void setPrice(double price){
         this.price = price;
     }
-    public void setstock(int stock){
+    public void setStock(int stock){
         this.stock = stock;
     }
     // Método toString()

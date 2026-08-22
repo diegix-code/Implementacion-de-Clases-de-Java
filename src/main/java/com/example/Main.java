@@ -13,33 +13,33 @@ public class Main {
         // Crear el primer objeto
         Product product1 = new Product();
 
-        product1.setid("PRD001");
-        product1.setname("Andres");
-        product1.setprice(2000);
-        product1.setstock(50);
+        product1.setId("PRD001");
+        product1.setName("Andres");
+        product1.setPrice(2000);
+        product1.setStock(50);
 
         // Crear el segundo objeto
         Product product2 = new Product();
 
-        product2.setid("PRD002");
-        product2.setname("Laura");
-        product2.setprice(3500);
-        product2.setstock(80);
+        product2.setId("PRD002");
+        product2.setName("Laura");
+        product2.setPrice(3500);
+        product2.setStock(80);
 
         // Modificar un atributo de cada objeto
-        product1.setprice(1500);
-        product2.setstock(40);
+        product1.setPrice(1500);
+        product2.setStock(40);
 
         // Imprimir con getters (dos atributos)
         System.out.println("=== Product 1 ===");
-        System.out.println("name: " + product1.getname());
-        System.out.println("stock: " + product1.getstock());
+        System.out.println("name: " + product1.getName());
+        System.out.println("stock: " + product1.getStock());
 
         System.out.println();
 
         System.out.println("=== Product 2 ===");
-        System.out.println("name: " + product2.getname());
-        System.out.println("price: " + product2.getprice());
+        System.out.println("name: " + product2.getName());
+        System.out.println("price: " + product2.getPrice());
 
         System.out.println();
 
